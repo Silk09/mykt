@@ -11,3 +11,11 @@ def test_quadratic_discriminant():
     root2 = (-b - discriminant ** 0.5) / (2 * a)
     assert root1 == 1.0
     assert root2 == 0.5
+
+def test_addition():
+    assert 1 + 1 == 2
+
+
+def test_addition():
+    assert 1 + 1 == 2
+
